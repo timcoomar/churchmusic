@@ -1,0 +1,9 @@
+.site-menu {
+  display:          flex;
+  justify-content:  flex-end;
+  padding:          .8em .8em 0 .8em;
+
+  > li {
+    margin:         0 0 0 .4em;
+  }
+}

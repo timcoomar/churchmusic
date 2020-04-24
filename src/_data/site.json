@@ -1,13 +1,13 @@
 {
   "showThemeCredit": true,
-  "name": "Hylia Starter Kit",
-  "shortDesc": "Hylia is a lightweight Eleventy starter kit to help you to create your own blog or personal website.",
+  "name": "Ύμνοι εκκλησίας",
+  "shortDesc": "Σ' αυτό τον κατάλογο θα βρείτε ύμνους με στίχους στα Ελληνικά και τα Αγγλικά, παρτιτούρες και άλλα σχετικά στοιχεία για κάθε ύμνο",
   "url": "https://hylia.website",
-  "authorEmail": "me@andy-bell.design",
-  "authorHandle": "@hankchizljaw",
-  "authorName": "Andy Bell",
+  "authorEmail": "hello@ecclesia-ex.gr",
+  "authorHandle": "@timcoomar",
+  "authorName": "Tim Coomar",
   "enableThirdPartyComments": false,
-  "maxPostsPerPage": 5,
+  "maxPostsPerPage": 3,
   "paymentPointer": "$coil.xrptipbot.com/c1f8f05d-8d8c-4f37-b1ad-25677ae129da",
   "faviconPath": "/images/favicon.png"
 }
