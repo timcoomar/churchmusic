@@ -7,21 +7,21 @@ permalink: '/feed.xml'
 	<subtitle></subtitle>
 	<link href="{{ site.url }}{{ permalink }}" rel="self"/>
 	<link href="{{ site.url }}/"/>
-	<updated>{{ collections.posts | rssLastUpdatedDate }}</updated>
+	<updated>{{ collections.songs | rssLastUpdatedDate }}</updated>
 	<id>{{ site.url }}</id>
 	<author>
   <name>{{ site.authorName }}</name>
   <email>{{ site.authorEmail }}</email>
 	</author>
-	{% for post in collections.posts %}
+	{% for post in collections.songs %}
   {% set absolutePostUrl %}{{ site.url }}{{ post.url | url }}{% endset %}
   <entry>
-    <title>{{ post.data.title }}</title>
+    <title>{{ song.data.title }}</title>
     <link href="{{ absolutePostUrl }}"/>
-    <updated>{{ post.date | rssDate }}</updated>
+    <updated>{{ song.date | rssDate }}</updated>
     <id>{{ absolutePostUrl }}</id>
     <content type="html"><![CDATA[
-      {{ post.templateContent | safe }}
+      {{ song.templateContent | safe }}
     ]]></content>
   </entry>
 	{% endfor %}

@@ -2,3 +2,7 @@ body {
   font-family:    var(--body-font);
   font-size:      clamp( var(--min-font), var(--pref-font), var(--max-font) );
 }
+
+p {
+  margin-bottom: 1em;
+}

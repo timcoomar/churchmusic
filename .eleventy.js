@@ -39,15 +39,15 @@ module.exports = function(config) {
   const now = new Date();
 
   // Custom collections
-  const livePosts = post => post.date <= now && !post.data.draft;
-  config.addCollection('posts', collection => {
+  const liveSongs = post => post.date <= now && !post.data.draft;
+  config.addCollection('songs', collection => {
     return [
-      ...collection.getFilteredByGlob('./src/posts/*.md').filter(livePosts)
+      ...collection.getFilteredByGlob('./src/songs/*.md').filter(liveSongs)
     ].reverse();
   });
 
-  config.addCollection('postFeed', collection => {
-    return [...collection.getFilteredByGlob('./src/posts/*.md').filter(livePosts)]
+  config.addCollection('songFeed', collection => {
+    return [...collection.getFilteredByGlob('./src/songs/*.md').filter(liveSongs)]
       .reverse()
       .slice(0, site.maxPostsPerPage);
   });

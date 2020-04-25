@@ -1,0 +1,34 @@
+{% extends 'layouts/base.njk' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+{% set introSummary %}
+{% endset %}
+
+{% block content %}
+  <main>
+    {% include "partials/components/intro.njk" %}
+    <article class="hymn-article">
+      <div class="hymn-article__content gr">
+        <p>Greek!</p>
+      </div>
+      <div class="hymn-article__content en">
+        {{ content | safe }}
+      </div>
+    </article>
+    {% if tags %}
+      <footer class="hymn-article__meta">
+        <h5>Filed under</h5>
+        <ul>
+          {% for item in tags %}
+            <li class="nav__item">
+              <a href="/tags/{{ item }}">{{ item }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </footer>
+    {% endif %}
+  </main>
+{% endblock %}
+
+{{ content | safe }}
