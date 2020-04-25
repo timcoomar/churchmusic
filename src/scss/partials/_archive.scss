@@ -1,5 +1,17 @@
 .archive-section {
-  padding:  2em 3em;
+  padding:    2em 3em;
+  column-gap: 2.4em;
+  font-size:  clamp(18px, 2vw, 24px);
+
+  .post-list__item {
+    a {
+      font-weight:  100;
+
+      &:hover {
+        color: rgb(0,0,0,0.4);
+      }
+    }
+  }
 }
 
 @media (min-width: 600px) {
