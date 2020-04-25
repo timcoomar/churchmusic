@@ -10,10 +10,10 @@
     {% include "partials/components/intro.njk" %}
     <article class="hymn-article">
       <div class="hymn-article__content gr">
-        <p>Greek!</p>
+        {{ content | safe }}
       </div>
       <div class="hymn-article__content en">
-        {{ content | safe }}
+        {{ english | markdownFilter | safe }}
       </div>
     </article>
     {% if tags %}

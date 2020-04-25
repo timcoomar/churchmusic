@@ -9,8 +9,10 @@
 {% set postListItems = collections.songs %}
 
 {% block content %}
-  <main id="main-content" tabindex="-1">
+  <main>
     {% include "partials/components/intro.njk" %}
-    {% include "partials/components/post-list.njk" %}
+    <section class="archive-section">
+      {% include "partials/components/post-list.njk" %}
+    </section>
   </main>
 {% endblock %}
