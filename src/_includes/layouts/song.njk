@@ -13,7 +13,9 @@
         {{ content | safe }}
       </div>
       <div class="hymn-article__content en">
+        {% if english %}
         {{ english | markdownFilter | safe }}
+        {% endif %}
       </div>
     </article>
     {% if tags %}
