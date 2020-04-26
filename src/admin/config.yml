@@ -50,9 +50,9 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Tags", name: "tags", widget: "list", allow_add: true, required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Youtube Greek", name: "youtube_gr", widget: "code", output_code_only: true, required: false}
+      - {label: "Youtube Greek", name: "youtube_gr", widget: "string", required: false}
       - {label: "English", name: "english", widget: "markdown", required: false}
-      - {label: "Youtube English", name: "youtube_en", widget: "code", output_code_only: true, required: false}
+      - {label: "Youtube English", name: "youtube_en", widget: "string", required: false}
   - label: "Globals"
     name: "globals"
     files:
