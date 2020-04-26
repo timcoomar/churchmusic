@@ -12,7 +12,7 @@
       <div class="hymn-article__content gr">
         {{ content | safe }}
         {% if youtube_gr %}
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ youtube_gr }}?controls=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ youtube_gr }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         {% endif %}
       </div>
       <div class="hymn-article__content en">
@@ -20,7 +20,7 @@
         {{ english | markdownFilter | safe }}
         {% endif %}
         {% if youtube_en %}
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ youtube_en }}?controls=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ youtube_en }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         {% endif %}
       </div>
     </article>
