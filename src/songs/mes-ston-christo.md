@@ -3,6 +3,7 @@ title: Μες στον Χριστό
 date: 2019-06-18T00:00:00.000Z
 tags:
   - translations
+youtube_gr: tnEKNLZ-584
 english: |-
   1. In Christ alone my hope is found;  
   He is my light, my strength, my song;  
