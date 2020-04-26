@@ -11,10 +11,16 @@
     <article class="hymn-article">
       <div class="hymn-article__content gr">
         {{ content | safe }}
+        {% if youtube_gr %}
+        {{ youtube_gr }}
+        {% endif %}
       </div>
       <div class="hymn-article__content en">
         {% if english %}
         {{ english | markdownFilter | safe }}
+        {% endif %}
+        {% if youtube_en %}
+        {{ youtube_en }}
         {% endif %}
       </div>
     </article>
