@@ -2,12 +2,12 @@
   "showThemeCredit": true,
   "name": "Ύμνοι εκκλησίας",
   "shortDesc": "Σ' αυτό τον κατάλογο θα βρείτε ύμνους με στίχους στα Ελληνικά και τα Αγγλικά, παρτιτούρες και άλλα σχετικά στοιχεία για κάθε ύμνο",
-  "url": "https://hylia.website",
+  "url": "https://youthful-bartik-92dd2a.netlify.app/",
   "authorEmail": "hello@ecclesia-ex.gr",
   "authorHandle": "@timcoomar",
   "authorName": "Tim Coomar",
   "enableThirdPartyComments": false,
-  "maxPostsPerPage": 3,
   "paymentPointer": "$coil.xrptipbot.com/c1f8f05d-8d8c-4f37-b1ad-25677ae129da",
-  "faviconPath": "/images/favicon.png"
+  "faviconPath": "/images/favicon.png",
+  "maxPostsPerPage": 3
 }
