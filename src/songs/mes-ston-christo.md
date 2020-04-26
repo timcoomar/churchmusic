@@ -40,6 +40,7 @@ english: |-
   Can ever pluck me from His hand;  
   Till He returns or calls me home—  
   Here in the pow’r of Christ I’ll stand.
+youtube_en: 16KYvfIc2bE
 ---
 1. Μες στον Χριστό, είν’ η καρδιά  
 Δύναμη αυτός, παρηγοριά  
